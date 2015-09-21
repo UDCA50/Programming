@@ -15,7 +15,15 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="startSource.cpp">
+    <Text Include="myfile.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ReadFile.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="0921_programming_quiz.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

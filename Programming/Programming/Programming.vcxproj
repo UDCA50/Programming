@@ -64,7 +64,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="startSource.cpp" />
+    <Text Include="myfile.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="0921_programming_quiz.cpp" />
+    <ClCompile Include="ReadFile.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
